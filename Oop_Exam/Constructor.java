@@ -17,6 +17,8 @@ public class Constructor {
     }
   public static void main(String[] args) {
     Constructor ob1=new Constructor("Fahmidur Rahman Siam",900903003,8);
+    Constructor ob2=new Constructor("midur man am",900903003,8);
     ob1.display();
+    ob2.display();
   }
 }
