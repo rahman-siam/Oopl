@@ -1,17 +1,19 @@
 package Oop_Exam;
 
 public class This {
-  static int sum=0;
+   int sum=0;
 
-  static void m(){
+   void m(){
     sum++;
     System.out.println("Sum is: "+sum);
   }
 
   public static void main(String[] args) {
-    This.m();
-    This.m();
-    This.m();
+    This Test=new This();
+    Test.m();
+    Test.m();
+    Test.m();
+
   }
 }
 
